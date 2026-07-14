@@ -1,0 +1,284 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main 
+{
+    width: 962px;
+    min-height: 600px;
+    border:1px solid black;
+    margin: 10px auto;
+}
+#header
+{
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+#leftlogo 
+{
+    height: 100%;
+    width: 150px;
+    border-right:1px solid black;
+    float: left;
+}
+#rightlogo 
+{
+    height: 100%;
+    width: 150px;
+    border-left:1px solid black;
+    float: left;
+}
+
+
+#title
+{
+    width: 660px;
+   float: left;
+   text-align: center;
+}
+#leftlogo img , #rightlogo img 
+{
+    width: 100%;
+    height: 100%;
+}
+#container 
+{
+    min-height: 400px;
+}
+#footer
+{
+    min-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: black;
+    color: yellow;
+    clear: both;
+}
+a 
+{
+    text-decoration: none;
+}
+
+.trustForm
+{
+    margin: 20px auto;
+    border:2px solid black;
+    padding: 20px;
+    width:500px;
+    min-height: 500px;
+}
+.trustForm label 
+{
+    display: block;
+    margin: 4px 0px;
+    font-size: 20px;
+}
+.trustForm input[type="text"] , .trustForm input[type="password"] , .trustForm textarea,.trustForm input[type="date"],
+.trustForm input[type="file"]
+{
+    border:1px solid black;
+    font-size: 20px;
+    padding: 3px;
+    width: 90%;
+}
+.btnGroup
+{
+    text-align: center;
+}
+.btnGroup input[type="button"],.btnGroup input[type="submit"],.btnGroup input[type="reset"]
+{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+
+}
+#resMessage
+{
+    background-color: greenyellow;
+    color:black;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+#parentAdmin 
+{
+    min-height: 100%;
+    background-color:bisque ;
+
+}
+#parentAdmin #leftSide
+{
+    width: 144px;
+    min-height: 100%;
+    vertical-align: top;
+    background-color:bisque;
+    display: inline-block;
+}
+#parentAdmin #rightSide
+{
+    vertical-align: top;
+    width: 804px;
+    min-height: 100%;
+    background-color:white;
+    display: inline-block;
+    border-left: 1px solid black;
+}
+#adminMenu 
+{
+    padding: 3px;
+}
+#adminMenu ul 
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#adminMenu ul li 
+{
+    height: 30px;
+    text-align: left;
+}
+#adminMenu ul li a
+{
+   display: block;
+   line-height: 30px;
+}
+#adminMenu ul li a:hover
+{
+    background-color: black;
+     color:white;
+     text-align: center;
+}
+a.enable 
+{
+   background-color: green;
+   color:white;
+   display: block;
+   width: 80px;
+   height: 25px;
+   text-align: center;   
+   margin: 5px;
+}
+a.disable
+{
+   background-color:red;
+   color:white;
+   width: 80px;
+   display: block;
+   height: 25px;
+   text-align: center;   
+   margin: 5px;
+   padding: 2px;
+}
+#addmember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#add{
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#topMenu
+{
+
+    height: 50px;
+    margin: 20px;
+}
+#topMenu ul 
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#topMenu ul li 
+{
+    width: 150px;
+    margin-left:10px ;
+    margin-right:10px ;
+    float: left;
+    text-align: center;
+    background-color: black;
+    line-height: 50px;
+}
+#topMenu ul li a 
+{
+   color:white;
+   text-decoration: none;
+   line-height: 50px;
+   display: block;
+}
+#topMenu ul li a:hover 
+{
+   background-color: yellow;
+   color:black;
+   border-bottom: 4px solid red;
+   text-decoration: none;
+   line-height: 50px;
+   display: block;
+}
+#eventArea
+{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.eventinfo
+{
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+    border:2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+
+}
+.eventinfo img 
+{
+    width: 100px;
+    height: 100px;
+    border:10px solid white;
+    margin: 10px;
+}
+.eventinfo .dateinfo
+{
+   color:blue;
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+.eventinfo .titleinfo
+{
+   color:gray;   
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+.eventinfo .description
+{
+    color:red;
+    font-size: 14px;
+    height:150px ;
+    overflow: scroll;
+}
+#title h3,#title h5{
+    margin:0px;
+    padding:0px;
+}
+
+
+
